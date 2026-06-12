@@ -4,7 +4,6 @@ import json
 
 
 def main():
-
     output = []
 
     # Matrix für SiO₂
