@@ -13,7 +13,7 @@ def main():
 
     # Einheitsvektoren x,y und z
     E1 = np.array([1, 0, 0])
-    E2 = np.array([0, 1, 0])
+    E2 = np.array([0, 1, 0]) 
     E3 = np.array([0, 0, 1])
 
     # wavelength of visible light in meters
