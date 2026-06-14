@@ -1,0 +1,9 @@
+{
+  "wellenlaenge": 0.5876,
+  "brechungsindizes": {
+    "SiO2": 1.4585,
+    "LiTaO3": 2.1874,
+    "TeO2": 2.2749,
+    "KDP": 1.5094
+  }
+}
