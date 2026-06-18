@@ -25,7 +25,6 @@ def main():
     cursor.execute("SELECT * FROM material_matrices")
     rows = cursor.fetchall()
 
-    # 🔥 30 Werte
     length_values = np.linspace(0.5, 0.6, 30)
 
     # 🔥 Faktoren so gewählt, dass exakt ~1500 entsteht
