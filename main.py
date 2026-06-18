@@ -26,8 +26,7 @@ def main():
     rows = cursor.fetchall()
 
     length_values = np.linspace(0.5, 0.6, 30)
-
-    # 🔥 Faktoren so gewählt, dass exakt ~1500 entsteht
+    
     P_factors = np.linspace(0.85, 1.15, 5)
     N_factors = np.linspace(0.90, 1.10, 5)
     T_factors = np.linspace(0.95, 1.05, 2)
