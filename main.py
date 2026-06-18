@@ -5,14 +5,14 @@ import sqlite3
 import os
 
 
-def P(z):
-    return 1e3 * (1 + 0.01 * z)
+def P(length):
+    return 1e3 * (1 + 0.01 * length)
 
-def N(z):
-    return 100 * (1 - 0.005 * z)
+def N(length):
+    return 100 * (1 - 0.005 * length)
 
-def T(z):
-    return 10 * (1 + 0.01 * z)
+def T(length):
+    return 10 * (1 + 0.01 * length)
 
 
 def main():
@@ -25,7 +25,13 @@ def main():
     cursor.execute("SELECT * FROM material_matrices")
     rows = cursor.fetchall()
 
-    step = 0.001
+    # 🔥 30 Werte
+    length_values = np.linspace(0.5, 0.6, 30)
+
+    # 🔥 Faktoren so gewählt, dass exakt ~1500 entsteht
+    P_factors = np.linspace(0.85, 1.15, 5)
+    N_factors = np.linspace(0.90, 1.10, 5)
+    T_factors = np.linspace(0.95, 1.05, 2)
 
     for zeile in rows:
 
@@ -39,61 +45,76 @@ def main():
         p11 = float(daten["p11"])
         p12 = float(daten["p12"])
 
-        # stabilere Werte als arange
-        z_values = np.linspace(0.5, 0.6, int((0.6 - 0.5) / step) + 1)
-
         results = []
 
-        for z in z_values:
-
-            P_val = P(z)
-            N_val = N(z)
-            T_val = T(z)
-
-            K_pressure = (
-                (2 * math.pi * n) / E
-                * wavelength
-                * (
-                    2 * nu
-                    + 0.5 * n**2
-                    * (p12 * (1 - 3 * nu) + p11 * (1 - nu))
-                )
+        K_pressure = (
+            (2 * math.pi * n) / E
+            * wavelength
+            * (
+                2 * nu
+                + 0.5 * n**2
+                * (p12 * (1 - 3 * nu) + p11 * (1 - nu))
             )
+        )
 
-            K_tension = (
-                (2 * math.pi * n) / E
-                * wavelength
-                * (
-                    1
-                    - 0.5 * n**2
-                    * (p12 * (1 - nu) - nu * p11)
-                )
+        K_tension = (
+            (2 * math.pi * n) / E
+            * wavelength
+            * (
+                1
+                - 0.5 * n**2
+                * (p12 * (1 - nu) - nu * p11)
             )
+        )
 
-            K_torsion = (
-                (math.pi * n) / (2 * wavelength * E)
-                * (n**2 * (1 + nu) * (p11 - p12))
-            )
+        K_torsion = (
+            (math.pi * n) / (2 * wavelength * E)
+            * (n**2 * (1 + nu) * (p11 - p12))
+        )
 
-            result = {
-                "material": material,
-                "z": round(z, 4),
-                "P": P_val,
-                "N": N_val,
-                "T": T_val,
-                "delta_phi_pressure": K_pressure * P_val,
-                "delta_phi_tension": K_tension * N_val,
-                "delta_phi_torsion": K_torsion * T_val
-            }
+        # 🔥 exakt 1500 Kombinationen
+        for length in length_values:
 
-            results.append(result)
+            base_P = P(length)
+            base_N = N(length)
+            base_T = T(length)
+
+            for fP in P_factors:
+                for fN in N_factors:
+                    for fT in T_factors:
+
+                        P_val = base_P * fP
+                        N_val = base_N * fN
+                        T_val = base_T * fT
+
+                        results.append({
+                            "material": material,
+                            "length": round(length, 4),
+                            "P": P_val,
+                            "N": N_val,
+                            "T": T_val,
+                            "factors": {
+                                "P": round(fP, 3),
+                                "N": round(fN, 3),
+                                "T": round(fT, 3)
+                            },
+                            "delta_phi_pressure": K_pressure * P_val,
+                            "delta_phi_tension": K_tension * N_val,
+                            "delta_phi_torsion": K_torsion * T_val
+                        })
 
         file = f"Outputs/simulation_{material}.json"
+
+        results.sort(key=lambda x: (
+    abs(x["delta_phi_pressure"]) +
+    abs(x["delta_phi_tension"]) +
+    abs(x["delta_phi_torsion"])
+))
 
         with open(file, "w") as f:
             json.dump(results, f, indent=4)
 
-        print("gespeichert:", file)
+        print("gespeichert:", file, "→", len(results), "Einträge")
 
     conn.close()
 
