@@ -16,23 +16,6 @@ CREATE TABLE IF NOT EXISTS material_matrizen (
 )
 """)
 
-# 2. Tabelle für die unabhängigen Daten erstellen
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS berechnungen (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    Material_name TEXT NOT NULL,
-    p11 REAL NOT NULL,               
-    p12 REAL NOT NULL,
-    p13 REAL NOT NULL,
-    p14 REAL NOT NULL,
-    p31 REAL NOT NULL,
-    p33 REAL NOT NULL,
-    p41 REAL NOT NULL,
-    p44 REAL NOT NULL,          
-    material_id INTEGER,                 -- Verknüpfung zum Material
-    FOREIGN KEY (material_id) REFERENCES material_matrizen(id)
-)
-""")
 
 conn.commit()
 print("Datenbank und Tabellen wurden erfolgreich erstellt!")

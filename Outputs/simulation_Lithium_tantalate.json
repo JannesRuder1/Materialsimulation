@@ -1,0 +1,1002 @@
+[
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5,
+        "P": 1004.9999999999999,
+        "N": 99.75,
+        "T": 10.049999999999999,
+        "delta_phi_pressure": 5.4470956358553624e-08,
+        "delta_phi_tension": 7.376717991463338e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.501,
+        "P": 1005.0101010101009,
+        "N": 99.74949494949496,
+        "T": 10.05010101010101,
+        "delta_phi_pressure": 5.447150383286247e-08,
+        "delta_phi_tension": 7.376680641938054e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.502,
+        "P": 1005.020202020202,
+        "N": 99.7489898989899,
+        "T": 10.050202020202018,
+        "delta_phi_pressure": 5.4472051307171316e-08,
+        "delta_phi_tension": 7.376643292412768e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.503,
+        "P": 1005.0303030303029,
+        "N": 99.74848484848485,
+        "T": 10.050303030303029,
+        "delta_phi_pressure": 5.447259878148016e-08,
+        "delta_phi_tension": 7.376605942887482e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.504,
+        "P": 1005.0404040404039,
+        "N": 99.74797979797981,
+        "T": 10.05040404040404,
+        "delta_phi_pressure": 5.4473146255789e-08,
+        "delta_phi_tension": 7.3765685933621985e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5051,
+        "P": 1005.050505050505,
+        "N": 99.74747474747475,
+        "T": 10.05050505050505,
+        "delta_phi_pressure": 5.447369373009785e-08,
+        "delta_phi_tension": 7.376531243836913e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5061,
+        "P": 1005.060606060606,
+        "N": 99.7469696969697,
+        "T": 10.05060606060606,
+        "delta_phi_pressure": 5.4474241204406695e-08,
+        "delta_phi_tension": 7.376493894311627e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5071,
+        "P": 1005.070707070707,
+        "N": 99.74646464646464,
+        "T": 10.05070707070707,
+        "delta_phi_pressure": 5.4474788678715545e-08,
+        "delta_phi_tension": 7.376456544786341e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5081,
+        "P": 1005.080808080808,
+        "N": 99.7459595959596,
+        "T": 10.05080808080808,
+        "delta_phi_pressure": 5.447533615302439e-08,
+        "delta_phi_tension": 7.376419195261057e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5091,
+        "P": 1005.090909090909,
+        "N": 99.74545454545455,
+        "T": 10.05090909090909,
+        "delta_phi_pressure": 5.447588362733323e-08,
+        "delta_phi_tension": 7.376381845735772e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5101,
+        "P": 1005.10101010101,
+        "N": 99.7449494949495,
+        "T": 10.0510101010101,
+        "delta_phi_pressure": 5.447643110164208e-08,
+        "delta_phi_tension": 7.376344496210485e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5111,
+        "P": 1005.1111111111111,
+        "N": 99.74444444444444,
+        "T": 10.05111111111111,
+        "delta_phi_pressure": 5.447697857595092e-08,
+        "delta_phi_tension": 7.3763071466852e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5121,
+        "P": 1005.1212121212121,
+        "N": 99.7439393939394,
+        "T": 10.05121212121212,
+        "delta_phi_pressure": 5.447752605025977e-08,
+        "delta_phi_tension": 7.376269797159916e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5131,
+        "P": 1005.131313131313,
+        "N": 99.74343434343434,
+        "T": 10.051313131313131,
+        "delta_phi_pressure": 5.4478073524568616e-08,
+        "delta_phi_tension": 7.3762324476346305e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5141,
+        "P": 1005.1414141414141,
+        "N": 99.74292929292929,
+        "T": 10.051414141414142,
+        "delta_phi_pressure": 5.447862099887746e-08,
+        "delta_phi_tension": 7.376195098109344e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5152,
+        "P": 1005.1515151515151,
+        "N": 99.74242424242425,
+        "T": 10.05151515151515,
+        "delta_phi_pressure": 5.447916847318631e-08,
+        "delta_phi_tension": 7.37615774858406e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5162,
+        "P": 1005.1616161616162,
+        "N": 99.7419191919192,
+        "T": 10.051616161616161,
+        "delta_phi_pressure": 5.447971594749515e-08,
+        "delta_phi_tension": 7.376120399058775e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5172,
+        "P": 1005.1717171717172,
+        "N": 99.74141414141414,
+        "T": 10.051717171717172,
+        "delta_phi_pressure": 5.4480263421804e-08,
+        "delta_phi_tension": 7.376083049533489e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5182,
+        "P": 1005.1818181818181,
+        "N": 99.74090909090908,
+        "T": 10.05181818181818,
+        "delta_phi_pressure": 5.448081089611284e-08,
+        "delta_phi_tension": 7.376045700008203e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5192,
+        "P": 1005.1919191919192,
+        "N": 99.74040404040404,
+        "T": 10.051919191919191,
+        "delta_phi_pressure": 5.448135837042169e-08,
+        "delta_phi_tension": 7.376008350482919e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5202,
+        "P": 1005.2020202020202,
+        "N": 99.73989898989899,
+        "T": 10.052020202020202,
+        "delta_phi_pressure": 5.448190584473054e-08,
+        "delta_phi_tension": 7.375971000957634e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5212,
+        "P": 1005.2121212121212,
+        "N": 99.73939393939393,
+        "T": 10.052121212121213,
+        "delta_phi_pressure": 5.448245331903938e-08,
+        "delta_phi_tension": 7.375933651432348e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5222,
+        "P": 1005.2222222222223,
+        "N": 99.7388888888889,
+        "T": 10.052222222222223,
+        "delta_phi_pressure": 5.448300079334823e-08,
+        "delta_phi_tension": 7.3758963019070635e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5232,
+        "P": 1005.2323232323232,
+        "N": 99.73838383838384,
+        "T": 10.052323232323232,
+        "delta_phi_pressure": 5.4483548267657066e-08,
+        "delta_phi_tension": 7.375858952381778e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5242,
+        "P": 1005.2424242424242,
+        "N": 99.73787878787878,
+        "T": 10.052424242424243,
+        "delta_phi_pressure": 5.4484095741965916e-08,
+        "delta_phi_tension": 7.3758216028564924e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5253,
+        "P": 1005.2525252525253,
+        "N": 99.73737373737373,
+        "T": 10.052525252525253,
+        "delta_phi_pressure": 5.448464321627476e-08,
+        "delta_phi_tension": 7.375784253331206e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5263,
+        "P": 1005.2626262626263,
+        "N": 99.73686868686869,
+        "T": 10.052626262626262,
+        "delta_phi_pressure": 5.448519069058361e-08,
+        "delta_phi_tension": 7.375746903805922e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5273,
+        "P": 1005.2727272727274,
+        "N": 99.73636363636363,
+        "T": 10.052727272727273,
+        "delta_phi_pressure": 5.448573816489246e-08,
+        "delta_phi_tension": 7.375709554280637e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5283,
+        "P": 1005.2828282828283,
+        "N": 99.73585858585858,
+        "T": 10.052828282828283,
+        "delta_phi_pressure": 5.4486285639201294e-08,
+        "delta_phi_tension": 7.375672204755351e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5293,
+        "P": 1005.2929292929293,
+        "N": 99.73535353535354,
+        "T": 10.052929292929294,
+        "delta_phi_pressure": 5.4486833113510144e-08,
+        "delta_phi_tension": 7.3756348552300665e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5303,
+        "P": 1005.3030303030304,
+        "N": 99.73484848484848,
+        "T": 10.053030303030305,
+        "delta_phi_pressure": 5.448738058781899e-08,
+        "delta_phi_tension": 7.375597505704781e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5313,
+        "P": 1005.3131313131314,
+        "N": 99.73434343434343,
+        "T": 10.053131313131313,
+        "delta_phi_pressure": 5.4487928062127837e-08,
+        "delta_phi_tension": 7.3755601561794955e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5323,
+        "P": 1005.3232323232324,
+        "N": 99.73383838383837,
+        "T": 10.053232323232324,
+        "delta_phi_pressure": 5.448847553643668e-08,
+        "delta_phi_tension": 7.37552280665421e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5333,
+        "P": 1005.3333333333334,
+        "N": 99.73333333333333,
+        "T": 10.053333333333335,
+        "delta_phi_pressure": 5.448902301074552e-08,
+        "delta_phi_tension": 7.375485457128925e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5343,
+        "P": 1005.3434343434344,
+        "N": 99.73282828282828,
+        "T": 10.053434343434343,
+        "delta_phi_pressure": 5.448957048505437e-08,
+        "delta_phi_tension": 7.37544810760364e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5354,
+        "P": 1005.3535353535354,
+        "N": 99.73232323232322,
+        "T": 10.053535353535354,
+        "delta_phi_pressure": 5.4490117959363215e-08,
+        "delta_phi_tension": 7.375410758078354e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5364,
+        "P": 1005.3636363636365,
+        "N": 99.73181818181817,
+        "T": 10.053636363636365,
+        "delta_phi_pressure": 5.4490665433672065e-08,
+        "delta_phi_tension": 7.375373408553069e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5374,
+        "P": 1005.3737373737375,
+        "N": 99.73131313131313,
+        "T": 10.053737373737375,
+        "delta_phi_pressure": 5.449121290798091e-08,
+        "delta_phi_tension": 7.375336059027784e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5384,
+        "P": 1005.3838383838385,
+        "N": 99.73080808080807,
+        "T": 10.053838383838386,
+        "delta_phi_pressure": 5.449176038228975e-08,
+        "delta_phi_tension": 7.375298709502499e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5394,
+        "P": 1005.3939393939393,
+        "N": 99.73030303030303,
+        "T": 10.053939393939393,
+        "delta_phi_pressure": 5.449230785659859e-08,
+        "delta_phi_tension": 7.375261359977214e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5404,
+        "P": 1005.4040404040403,
+        "N": 99.72979797979798,
+        "T": 10.054040404040403,
+        "delta_phi_pressure": 5.449285533090743e-08,
+        "delta_phi_tension": 7.3752240104519284e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5414,
+        "P": 1005.4141414141413,
+        "N": 99.72929292929294,
+        "T": 10.054141414141412,
+        "delta_phi_pressure": 5.449340280521628e-08,
+        "delta_phi_tension": 7.375186660926644e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5424,
+        "P": 1005.4242424242424,
+        "N": 99.72878787878788,
+        "T": 10.054242424242423,
+        "delta_phi_pressure": 5.449395027952512e-08,
+        "delta_phi_tension": 7.375149311401358e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5434,
+        "P": 1005.4343434343433,
+        "N": 99.72828282828283,
+        "T": 10.054343434343433,
+        "delta_phi_pressure": 5.4494497753833966e-08,
+        "delta_phi_tension": 7.375111961876073e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5444,
+        "P": 1005.4444444444443,
+        "N": 99.72777777777779,
+        "T": 10.054444444444444,
+        "delta_phi_pressure": 5.4495045228142816e-08,
+        "delta_phi_tension": 7.375074612350788e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5455,
+        "P": 1005.4545454545454,
+        "N": 99.72727272727273,
+        "T": 10.054545454545455,
+        "delta_phi_pressure": 5.449559270245166e-08,
+        "delta_phi_tension": 7.3750372628255026e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5465,
+        "P": 1005.4646464646464,
+        "N": 99.72676767676768,
+        "T": 10.054646464646463,
+        "delta_phi_pressure": 5.449614017676051e-08,
+        "delta_phi_tension": 7.374999913300217e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5475,
+        "P": 1005.4747474747475,
+        "N": 99.72626262626262,
+        "T": 10.054747474747474,
+        "delta_phi_pressure": 5.449668765106935e-08,
+        "delta_phi_tension": 7.3749625637749315e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5485,
+        "P": 1005.4848484848484,
+        "N": 99.72575757575758,
+        "T": 10.054848484848485,
+        "delta_phi_pressure": 5.4497235125378194e-08,
+        "delta_phi_tension": 7.374925214249647e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5495,
+        "P": 1005.4949494949494,
+        "N": 99.72525252525253,
+        "T": 10.054949494949494,
+        "delta_phi_pressure": 5.449778259968704e-08,
+        "delta_phi_tension": 7.374887864724361e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5505,
+        "P": 1005.5050505050505,
+        "N": 99.72474747474747,
+        "T": 10.055050505050504,
+        "delta_phi_pressure": 5.449833007399589e-08,
+        "delta_phi_tension": 7.374850515199076e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5515,
+        "P": 1005.5151515151515,
+        "N": 99.72424242424242,
+        "T": 10.055151515151515,
+        "delta_phi_pressure": 5.449887754830474e-08,
+        "delta_phi_tension": 7.37481316567379e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5525,
+        "P": 1005.5252525252525,
+        "N": 99.72373737373738,
+        "T": 10.055252525252525,
+        "delta_phi_pressure": 5.449942502261358e-08,
+        "delta_phi_tension": 7.374775816148506e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5535,
+        "P": 1005.5353535353535,
+        "N": 99.72323232323232,
+        "T": 10.055353535353536,
+        "delta_phi_pressure": 5.449997249692242e-08,
+        "delta_phi_tension": 7.37473846662322e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5545,
+        "P": 1005.5454545454545,
+        "N": 99.72272727272727,
+        "T": 10.055454545454545,
+        "delta_phi_pressure": 5.4500519971231266e-08,
+        "delta_phi_tension": 7.374701117097935e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5556,
+        "P": 1005.5555555555555,
+        "N": 99.72222222222223,
+        "T": 10.055555555555555,
+        "delta_phi_pressure": 5.4501067445540115e-08,
+        "delta_phi_tension": 7.37466376757265e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5566,
+        "P": 1005.5656565656566,
+        "N": 99.72171717171717,
+        "T": 10.055656565656566,
+        "delta_phi_pressure": 5.4501614919848965e-08,
+        "delta_phi_tension": 7.3746264180473645e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5576,
+        "P": 1005.5757575757576,
+        "N": 99.72121212121212,
+        "T": 10.055757575757575,
+        "delta_phi_pressure": 5.450216239415781e-08,
+        "delta_phi_tension": 7.374589068522079e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5586,
+        "P": 1005.5858585858585,
+        "N": 99.72070707070706,
+        "T": 10.055858585858585,
+        "delta_phi_pressure": 5.450270986846665e-08,
+        "delta_phi_tension": 7.3745517189967934e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5596,
+        "P": 1005.5959595959596,
+        "N": 99.72020202020202,
+        "T": 10.055959595959596,
+        "delta_phi_pressure": 5.4503257342775494e-08,
+        "delta_phi_tension": 7.374514369471509e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5606,
+        "P": 1005.6060606060606,
+        "N": 99.71969696969697,
+        "T": 10.056060606060607,
+        "delta_phi_pressure": 5.4503804817084344e-08,
+        "delta_phi_tension": 7.374477019946223e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5616,
+        "P": 1005.6161616161617,
+        "N": 99.71919191919191,
+        "T": 10.056161616161617,
+        "delta_phi_pressure": 5.450435229139319e-08,
+        "delta_phi_tension": 7.374439670420938e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5626,
+        "P": 1005.6262626262627,
+        "N": 99.71868686868687,
+        "T": 10.056262626262626,
+        "delta_phi_pressure": 5.4504899765702036e-08,
+        "delta_phi_tension": 7.374402320895653e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5636,
+        "P": 1005.6363636363636,
+        "N": 99.71818181818182,
+        "T": 10.056363636363637,
+        "delta_phi_pressure": 5.450544724001088e-08,
+        "delta_phi_tension": 7.3743649713703676e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5646,
+        "P": 1005.6464646464647,
+        "N": 99.71767676767676,
+        "T": 10.056464646464647,
+        "delta_phi_pressure": 5.450599471431972e-08,
+        "delta_phi_tension": 7.374327621845082e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5657,
+        "P": 1005.6565656565657,
+        "N": 99.71717171717171,
+        "T": 10.056565656565656,
+        "delta_phi_pressure": 5.450654218862857e-08,
+        "delta_phi_tension": 7.3742902723197965e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5667,
+        "P": 1005.6666666666667,
+        "N": 99.71666666666667,
+        "T": 10.056666666666667,
+        "delta_phi_pressure": 5.4507089662937415e-08,
+        "delta_phi_tension": 7.374252922794512e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5677,
+        "P": 1005.6767676767677,
+        "N": 99.71616161616161,
+        "T": 10.056767676767677,
+        "delta_phi_pressure": 5.450763713724626e-08,
+        "delta_phi_tension": 7.374215573269226e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5687,
+        "P": 1005.6868686868687,
+        "N": 99.71565656565656,
+        "T": 10.056868686868688,
+        "delta_phi_pressure": 5.450818461155511e-08,
+        "delta_phi_tension": 7.374178223743941e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5697,
+        "P": 1005.6969696969697,
+        "N": 99.71515151515152,
+        "T": 10.056969696969698,
+        "delta_phi_pressure": 5.450873208586395e-08,
+        "delta_phi_tension": 7.374140874218656e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5707,
+        "P": 1005.7070707070708,
+        "N": 99.71464646464646,
+        "T": 10.057070707070707,
+        "delta_phi_pressure": 5.45092795601728e-08,
+        "delta_phi_tension": 7.374103524693371e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5717,
+        "P": 1005.7171717171718,
+        "N": 99.71414141414141,
+        "T": 10.057171717171718,
+        "delta_phi_pressure": 5.4509827034481643e-08,
+        "delta_phi_tension": 7.374066175168085e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5727,
+        "P": 1005.7272727272727,
+        "N": 99.71363636363635,
+        "T": 10.057272727272728,
+        "delta_phi_pressure": 5.4510374508790486e-08,
+        "delta_phi_tension": 7.3740288256428e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5737,
+        "P": 1005.7373737373738,
+        "N": 99.71313131313131,
+        "T": 10.057373737373737,
+        "delta_phi_pressure": 5.451092198309933e-08,
+        "delta_phi_tension": 7.373991476117515e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5747,
+        "P": 1005.7474747474748,
+        "N": 99.71262626262626,
+        "T": 10.057474747474748,
+        "delta_phi_pressure": 5.451146945740818e-08,
+        "delta_phi_tension": 7.3739541265922294e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5758,
+        "P": 1005.7575757575759,
+        "N": 99.7121212121212,
+        "T": 10.057575757575759,
+        "delta_phi_pressure": 5.451201693171703e-08,
+        "delta_phi_tension": 7.373916777066944e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5768,
+        "P": 1005.7676767676769,
+        "N": 99.71161616161616,
+        "T": 10.057676767676769,
+        "delta_phi_pressure": 5.451256440602587e-08,
+        "delta_phi_tension": 7.373879427541659e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5778,
+        "P": 1005.7777777777778,
+        "N": 99.71111111111111,
+        "T": 10.05777777777778,
+        "delta_phi_pressure": 5.4513111880334715e-08,
+        "delta_phi_tension": 7.373842078016374e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5788,
+        "P": 1005.7878787878789,
+        "N": 99.71060606060605,
+        "T": 10.057878787878789,
+        "delta_phi_pressure": 5.451365935464356e-08,
+        "delta_phi_tension": 7.373804728491088e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5798,
+        "P": 1005.7979797979797,
+        "N": 99.71010101010101,
+        "T": 10.057979797979797,
+        "delta_phi_pressure": 5.4514206828952394e-08,
+        "delta_phi_tension": 7.3737673789658036e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5808,
+        "P": 1005.8080808080807,
+        "N": 99.70959595959596,
+        "T": 10.058080808080806,
+        "delta_phi_pressure": 5.4514754303261244e-08,
+        "delta_phi_tension": 7.373730029440518e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5818,
+        "P": 1005.8181818181818,
+        "N": 99.70909090909092,
+        "T": 10.058181818181817,
+        "delta_phi_pressure": 5.451530177757009e-08,
+        "delta_phi_tension": 7.373692679915233e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5828,
+        "P": 1005.8282828282827,
+        "N": 99.70858585858586,
+        "T": 10.058282828282827,
+        "delta_phi_pressure": 5.451584925187893e-08,
+        "delta_phi_tension": 7.373655330389948e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5838,
+        "P": 1005.8383838383837,
+        "N": 99.70808080808081,
+        "T": 10.058383838383838,
+        "delta_phi_pressure": 5.451639672618777e-08,
+        "delta_phi_tension": 7.373617980864662e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5848,
+        "P": 1005.8484848484848,
+        "N": 99.70757575757577,
+        "T": 10.058484848484849,
+        "delta_phi_pressure": 5.451694420049662e-08,
+        "delta_phi_tension": 7.373580631339378e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5859,
+        "P": 1005.8585858585858,
+        "N": 99.70707070707071,
+        "T": 10.058585858585857,
+        "delta_phi_pressure": 5.4517491674805466e-08,
+        "delta_phi_tension": 7.373543281814092e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5869,
+        "P": 1005.8686868686868,
+        "N": 99.70656565656566,
+        "T": 10.058686868686868,
+        "delta_phi_pressure": 5.4518039149114315e-08,
+        "delta_phi_tension": 7.373505932288807e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5879,
+        "P": 1005.8787878787878,
+        "N": 99.7060606060606,
+        "T": 10.058787878787879,
+        "delta_phi_pressure": 5.451858662342316e-08,
+        "delta_phi_tension": 7.373468582763521e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5889,
+        "P": 1005.8888888888888,
+        "N": 99.70555555555556,
+        "T": 10.058888888888887,
+        "delta_phi_pressure": 5.4519134097732e-08,
+        "delta_phi_tension": 7.3734312332382365e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5899,
+        "P": 1005.8989898989898,
+        "N": 99.70505050505051,
+        "T": 10.058989898989898,
+        "delta_phi_pressure": 5.451968157204085e-08,
+        "delta_phi_tension": 7.373393883712951e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5909,
+        "P": 1005.9090909090909,
+        "N": 99.70454545454545,
+        "T": 10.059090909090909,
+        "delta_phi_pressure": 5.4520229046349694e-08,
+        "delta_phi_tension": 7.3733565341876655e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5919,
+        "P": 1005.9191919191919,
+        "N": 99.70404040404041,
+        "T": 10.05919191919192,
+        "delta_phi_pressure": 5.4520776520658544e-08,
+        "delta_phi_tension": 7.373319184662381e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5929,
+        "P": 1005.9292929292928,
+        "N": 99.70353535353536,
+        "T": 10.05929292929293,
+        "delta_phi_pressure": 5.4521323994967387e-08,
+        "delta_phi_tension": 7.373281835137095e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5939,
+        "P": 1005.9393939393939,
+        "N": 99.7030303030303,
+        "T": 10.059393939393939,
+        "delta_phi_pressure": 5.452187146927623e-08,
+        "delta_phi_tension": 7.37324448561181e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.5949,
+        "P": 1005.9494949494949,
+        "N": 99.70252525252525,
+        "T": 10.05949494949495,
+        "delta_phi_pressure": 5.452241894358508e-08,
+        "delta_phi_tension": 7.373207136086524e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.596,
+        "P": 1005.959595959596,
+        "N": 99.70202020202021,
+        "T": 10.05959595959596,
+        "delta_phi_pressure": 5.452296641789392e-08,
+        "delta_phi_tension": 7.3731697865612396e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.597,
+        "P": 1005.969696969697,
+        "N": 99.70151515151515,
+        "T": 10.059696969696969,
+        "delta_phi_pressure": 5.452351389220277e-08,
+        "delta_phi_tension": 7.373132437035954e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.598,
+        "P": 1005.9797979797979,
+        "N": 99.7010101010101,
+        "T": 10.05979797979798,
+        "delta_phi_pressure": 5.452406136651161e-08,
+        "delta_phi_tension": 7.3730950875106686e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.599,
+        "P": 1005.989898989899,
+        "N": 99.70050505050506,
+        "T": 10.05989898989899,
+        "delta_phi_pressure": 5.452460884082046e-08,
+        "delta_phi_tension": 7.373057737985385e-09,
+        "delta_phi_torsion": 0.0
+    },
+    {
+        "material": "Lithium_tantalate",
+        "z": 0.6,
+        "P": 1006.0,
+        "N": 99.7,
+        "T": 10.06,
+        "delta_phi_pressure": 5.452515631512931e-08,
+        "delta_phi_tension": 7.373020388460098e-09,
+        "delta_phi_torsion": 0.0
+    }
+]
