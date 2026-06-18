@@ -72,7 +72,6 @@ def main():
             * (n**2 * (1 + nu) * (p11 - p12))
         )
 
-        # 🔥 exakt 1500 Kombinationen
         for length in length_values:
 
             base_P = P(length)
