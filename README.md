@@ -1,70 +1,35 @@
-# Material Simulation (Photoelasticity / Faser-Modell)
+# Materialsimulation
 
-## Überblick
+Dieses Projekt simuliert verschiedene Materialeigenschaften und berechnet resultierende Werte für Druck, Zug und Torsion. Die Ergebnisse werden als JSON-Dateien gespeichert.
 
-Dieses Projekt simuliert die optische Phasenverschiebung in einem Material entlang einer 1D-Strecke z ∈ [0.5, 0.6].
+## Hauptfunktionen
+- Liest Materialdaten aus einer SQLite-Datenbank (`material_database.db`).
+- Führt für verschiedene Längen und Faktoren Simulationen durch.
+- Berechnet delta_phi für Druck, Zug und Torsion.
+- Speichert die Ergebnisse sortiert als JSON-Dateien im Ordner `Outputs`.
+- Optimiert für Performance durch parallele Verarbeitung.
 
-Es wird ein vereinfachtes physikalisches Modell verwendet, das mechanische Belastungen (Druck, Zug, Torsion) in optische Phasenänderungen (Photoelastizität) umrechnet.
+## Nutzung
+1. Stelle sicher, dass die Datenbank `material_database.db` im Ordner `Datenbank` existiert und die Tabelle `material_matrices` enthält.
+2. Starte das Skript mit:
+   ```
+   python main.py
+   ```
+3. Die Ergebnisse werden im Ordner `Outputs` als `simulation_<Materialname>.json` gespeichert.
 
-Die Materialparameter werden aus einer SQLite-Datenbank geladen und für jedes Material separat ausgewertet.
-
----
-
-# Installation
-
-## Voraussetzungen
-- Python 3.9+
+## Abhängigkeiten
 - numpy
+- math
+- json
+- sqlite3
+- os
+- concurrent.futures
 
-## Installation
-```bash
+Installiere fehlende Pakete ggf. mit pip:
+```
 pip install numpy
 ```
 
----
+## Anpassung
+Passe die Funktionen `P`, `N`, `T` oder die Wertebereiche in `main.py` nach Bedarf an.
 
-# Datenbankstruktur
-
-Datei:
-Datenbank/material_database.db
-
-Tabelle:
-material_matrices
-
-Die Spalte zeile[2] enthält JSON-Daten:
-
-{
-  "refractive_index": 1.45,
-  "wavelength": 1550e-9,
-  "youngs_modulus_GPa": 70,
-  "poissons_ratio": 0.17,
-  "p11": 0.12,
-  "p12": 0.27
-}
-
----
-
-# Physikalisches Modell
-
-## Druck
-P(z) = 10^3 * (1 + 0.01z)
-
-## Zug
-N(z) = 100 * (1 - 0.005z)
-
-## Torsion
-T(z) = 10 * (1 + 0.01z)
-
----
-
-# Numerische Diskretisierung
-
-z ∈ [0.5, 0.6], Δz = 0.001
-
----
-
-# Ziel
-
-- Simulation von Faseroptik-Sensoren
-- Analyse von Belastung → Phasenverschiebung
-- Vergleich verschiedener Materialien
